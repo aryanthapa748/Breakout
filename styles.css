@@ -1,17 +1,32 @@
-h2{
+h2 {
     text-align: center;
-}
-
-.container{
+  }
+  
+  .container {
     width: 570px;
     height: 300px;
     border: 1px solid black;
     position: absolute;
-}
-
-.block{
+  }
+  
+  .block {
     position: absolute;
     width: 100px;
     height: 20px;
     background-color: rgb(221, 128, 13);
-}
+  }
+  
+  .user{
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    background-color: purple;
+  }
+  
+  .ball{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: green;
+  }
